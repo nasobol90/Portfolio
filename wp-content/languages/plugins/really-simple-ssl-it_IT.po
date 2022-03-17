@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-10 10:18:13+0000\n"
+"PO-Revision-Date: 2022-03-16 07:41:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -163,6 +163,70 @@ msgstr "Controllo se la cartella dei plugin esiste..."
 msgid "Improve security with Really Simple SSL Pro."
 msgstr "Migliora la sicurezza con Really Simple SSL Pro."
 
+#: class-admin.php:3168
+msgid "Check manually"
+msgstr "Controlla manualmente"
+
+#: class-admin.php:3165
+msgid "Could not test certificate"
+msgstr "Impossibile verificare il certificato"
+
+#: class-admin.php:3106
+msgid "Remember to change your URLs in external services like Google Analytics, Search Console and others. This should prevent any data loss resulting from the switch to https."
+msgstr "Ricordati di cambiare i tuoi URL in servizi esterni come Google Analytics, Search Console e altri. Questo dovrebbe prevenire qualsiasi perdita di dati derivante dal passaggio a https."
+
+#: class-admin.php:906
+msgid "Override SSL detection if %smanual check%s clears."
+msgstr "Sovrascrivi il rilevamento di SSL se %scontrollo manuale%s si azzera."
+
+#: class-admin.php:607
+msgid "This detection method is not 100% accurate."
+msgstr "Questo metodo di rilevamento non è accurato al 100%."
+
+#: class-admin.php:602 class-admin.php:607
+msgid "If you’re certain an SSL certificate is present, please check “Override SSL detection” to continue activating SSL."
+msgstr "Se hai la certezza che un certificato SSL sia presente, spunta \"Sovrascrivi rilevamento SSL\" per continuare l'attivazione SSL."
+
+#: class-admin.php:601 class-admin.php:3166
+msgid "Automatic certificate detection is not possible on your server."
+msgstr "La rilevazione automatica del certificato non è possibile sul tuo server."
+
+#: class-admin.php:601
+msgid "Could not test certificate."
+msgstr "Impossibile verificare il certificato."
+
+#: lets-encrypt/wizard/config/steps.php:67
+msgid "Checking host..."
+msgstr "Controllo host..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1099
+msgid "After completing the installation, you can let Really Simple SSL automatically configure your site for SSL by using the 'Activate SSL' button."
+msgstr "Dopo aver completato l'installazione, puoi lasciare che Really Simple SSL configuri automaticamente il tuo sito per SSL usando il pulsante \"Attiva SSL\"."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1084
+msgid "We have not detected any known hosting limitations."
+msgstr "Non abbiamo rilevato alcuna nota limitazione di hosting."
+
+#: class-admin.php:3546
+msgid "%sEnable%s"
+msgstr "%sAbilita%s"
+
+#: class-admin.php:3152
+msgid "The wp-config.php file is not writable, and needs to be edited. Please set this file to writable."
+msgstr "Il file wp-config.php non è scrivibile e deve essere modificato. Imposta questo file come scrivibile."
+
+#: grid/templates/tips-tricks.php:55
+msgid "Install a Let's Encrypt SSL Certificate with Really Simple SSL"
+msgstr "Installa un Certificato Let's Encrypt SSL con Really Simple SSL"
+
+#: grid/templates/tips-tricks.php:7
+msgid "Improve security: Add Cross-Site Protection Headers to prevent malicious attacks"
+msgstr "Migliora la sicurezza: Aggiungi Header di Protezione Cross-Site per prevenire attacchi dannosi"
+
+#: class-site-health.php:76
+msgid "Your website does not send all recommended security headers."
+msgstr "Il tuo sito web non invia tutti gli header di sicurezza consigliati."
+
 #: class-site-health.php:58 class-site-health.php:102
 msgid "Security"
 msgstr "Sicurezza"
@@ -170,6 +234,10 @@ msgstr "Sicurezza"
 #: class-admin.php:3364
 msgid "Recommended security headers enabled."
 msgstr "Header di sicurezza consigliati abilitati."
+
+#: class-admin.php:3357
+msgid "The following recommended security headers are not detected:"
+msgstr "I seguenti header di sicurezza non sono rilevati:"
 
 #: lets-encrypt/wizard/config/questions.php:64
 msgid "Disable OCSP Stapling"
